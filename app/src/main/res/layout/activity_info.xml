@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="icsd.aegean.aegeannews.Info">
+
+    <TextView
+        android:id="@+id/info"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Το Aegean News είναι μία εφαρμογή που προβάλλει νέα και ειδήσεις από διάφορα νησία του Αιγαίου. Τα νησιά αυτά είναι η Κάλυμνος, η Λέσβος, η Λήμνος, η Μύκονος, η Νάξος, η Πάρος, η Ρόδος, η Σάμος, η Σαντορίνη, η Σύρος, η Τήνος και η Χίος. Το κάθε νησί καλύπτεται από πολλές τοπικές ιστοσελίδες και τα τα θέματα που αφορούν είναι πολιτικά, κοινωνικά, πολιτισμικά, αθλητικά και φυσικά έκτακτες ειδήσεις. Πραγματοποιήθηκε από φοιτητές για το μάθημα της Τεχνολογίας Λογισμικού του τμήματος Μηχανικών Πληροφοριακών και Επικοινωνιακών Συστημάτων του Πανεπιστήμιου Αιγαίου για το ακαδημαϊκό έτος 2019-2020." />
+
+    <TextView
+        android:layout_above="@+id/icsd16178"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Γιώργος Κριαράς, 3212016078"/>
+
+    <TextView
+        android:id="@+id/icsd16178"
+        android:layout_above="@+id/icsd17041"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Μανώλης Σιγουλάκης, 3212016178"/>
+
+    <TextView
+        android:id="@+id/icsd17041"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Στέφανος Διαλεσιώτης, 3212017041"/>
+
+</RelativeLayout>
